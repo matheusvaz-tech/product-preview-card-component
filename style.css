@@ -112,7 +112,7 @@ body {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 648px) {
   main,
   body {
     box-sizing: border-box;
