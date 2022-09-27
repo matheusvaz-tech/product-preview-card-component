@@ -110,6 +110,10 @@ img {
 }
 
 @media (max-width: 414px) {
+  main,
+  body {
+    box-sizing: border-box;
+  }
   .principal-content {
     flex-direction: column;
     height: 38.188rem;
