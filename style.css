@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 
-img {
+img .parfum {
   border-bottom-left-radius: 0.625rem;
   border-top-left-radius: 0.625rem;
 }
@@ -119,7 +119,7 @@ img {
     height: 38.188rem;
   }
 
-  img {
+  img .parfum {
     border-top-right-radius: 0.625rem;
     border-top-left-radius: 0.625rem;
   }
