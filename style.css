@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 
-img .parfum {
+.parfum {
   border-bottom-left-radius: 0.625rem;
   border-top-left-radius: 0.625rem;
 }
@@ -46,23 +46,24 @@ img .parfum {
   background: white;
 }
 
-.product-content h2 {
+.product-content h1 {
   font-size: 0.75rem;
   color: #6c7289;
   text-transform: uppercase;
   letter-spacing: 0.375rem;
-  margin-bottom: 0.875rem;
+  margin-bottom: 1.25rem;
   font-weight: 500;
 }
 
-.product-content h1 {
+.product-content .perfume-name {
   font-size: 2rem;
   font-family: "Fraunces", serif;
   color: #1c232b;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
 }
 
-.product-content p {
+.product-content .description {
   line-height: 1.5rem;
   color: #6c7289;
   font-weight: 500;
@@ -101,12 +102,14 @@ img .parfum {
   column-gap: 0.75rem;
   font-size: 0.875rem;
   font-weight: 700;
-  transition: 0.4s;
+  transition: 0.48s;
 }
 
-.btn:hover {
-  background-color: #1a4032;
-  cursor: pointer;
+@media (hover: hover) {
+  .btn:hover {
+    background-color: #1a4032;
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 414px) {
@@ -137,7 +140,7 @@ img .parfum {
     border-bottom-right-radius: 0.625rem;
   }
 
-  .product-content h2 {
+  .product-content h1 {
     font-size: 0.75rem;
   }
 
