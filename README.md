@@ -1,6 +1,6 @@
 # Product Preview Card Component Project
 
-![preview](./github/preview-product-preview-card-component.png)
+![preview](./github/product-preview-card-component.png)
 
 > Third Frontend Mentor challenge in which I put into practice my knowledge of responsive design to adapt a purchase card component from the web to the mobile.
 
